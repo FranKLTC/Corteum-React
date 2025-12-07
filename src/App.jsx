@@ -3,8 +3,6 @@ function App() {
 
 
   return (
-    
-
 
     <div className="hero">
       <div className="hero-content">
@@ -17,7 +15,7 @@ function App() {
             <input type="text" className="cut-content"/>
           </div>
       </div>
-      <div className="info-content">
+      <div className="info-content ">
         <p className="p-info">
           Cada cuadrícula está configurada con el porcentaje correspondiente a cada corte, lo que hace más fácil realizar los cálculos.
         </p>
