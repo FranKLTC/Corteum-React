@@ -1,16 +1,34 @@
-# React + Vite
+# 🎓 Promedial — Calculadora de Notas (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación desarrollada con **React** y **Vite** para calcular el promedio final de notas según el sistema académico de la Universidad de Cartagena.  
+Los primeros tres cortes valen **20%** cada uno y el cuarto equivale al **40%**.
 
-Currently, two official plugins are available:
+La interfaz se **actualiza en tiempo real** gracias al uso de **hooks de React**, permitiendo ver el promedio inmediatamente mientras el usuario escribe sus notas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologías utilizadas
+- React (useState)
+- Vite
+- JavaScript
+- CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚡ Actualización en tiempo real
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación usa el hook **`useState`** para:
+
+- Actualizar instantáneamente cada nota al escribir.
+- Calcular el promedio final en tiempo real.
+- Mostrar el resultado sin recargar ni presionar botones adicionales.
+
+Esto mejora la experiencia del usuario y hace la herramienta más intuitiva.
+
+---
+
+## 📦 Instalación y ejecución
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
