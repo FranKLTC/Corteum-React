@@ -17,6 +17,15 @@ function App() {
     return resultado.toFixed(2); // opcional, limita a 2 decimales
   }
 
+  function changeColor() { 
+    if (promedio() >= 3.0) {
+      return 'green';
+    } else {
+      return 'red';
+    }
+
+  }
+
   return (
     <div className="hero">
       <div className="hero-content">
@@ -40,7 +49,7 @@ function App() {
           />
           <input 
             type="text" 
-            className="cut-content"
+            className={`cut-content ${changeColor()}`}
             onChange={(e) => setnumero4(Number(e.target.value))}
           />
         </div>

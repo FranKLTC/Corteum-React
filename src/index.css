@@ -56,6 +56,14 @@ body {
   border-bottom: solid 2px #ffffff;
 }
 
+.green {
+  border-bottom: 2px solid #00ff55; /* verde */
+}
+
+.red {
+  border-bottom: 2px solid #ff0033; /* rojo */
+}
+
 .info-content{
   margin-top: 5em;
   background-color: black;
