@@ -46,8 +46,8 @@ body {
 
 .cut-content{
   margin: auto;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border: none;
   background-color: transparent;
   outline: none;
@@ -57,11 +57,15 @@ body {
 }
 
 .green {
-  border-bottom: 2px solid #00ff55; /* verde */
+  border-bottom: 2px solid #00ff55;
+  box-shadow: 0 -25px 35px #00ff55aa, 0 0 10px #00ff55aa;
+  transition: box-shadow 0.3s ease;
 }
 
 .red {
-  border-bottom: 2px solid #ff0033; /* rojo */
+  border-bottom: 2px solid #ff0033;
+  box-shadow: 0 -25px 35px #ff0033aa, 0 0 10px #ff0033aa;
+  transition: box-shadow 0.3s ease;
 }
 
 .info-content{
